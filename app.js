@@ -1,8 +1,7 @@
 alert("Boas vindas ao jogo do número secreto");
 
-
-let chute = prompt('Escolha um número entre 1 e 30');
 let quantidade = 100;
+let chute = prompt(`Escolha um número entre 1 e ${quantidade}`);
 let numeroSecreto = parseInt(Math.random() * quantidade + 1);
 let tentativas = 1;
 
